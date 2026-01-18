@@ -91,7 +91,7 @@ ano_atual = datetime.now().year
 # -------------------  Exibição Streamlit------------------------------
 
 # Titulo Pagina
-st.title(f'🥅 Tabela do Campeonato Brasileiro {ano_atual} 🥅')
+st.title(f'🥅 Tabela do Campeonato Brasileiro 2025 🥅')
 
 # Tabela Campeonato
 #   Aumentar Tabela tamanho Janela
@@ -319,6 +319,7 @@ st.plotly_chart(Jogos_Campeonato)
 
 # Link para Redirecionamento para Tabela Atualizado
 st.markdown(f'[Confira os Proximos Jogos do Campeonato Brasileiro {ano_atual}](https://www.google.com/search?q=rodadas+do+brasileir%C3%A3o+atualizada&sca_esv=9c49312c20cc6857&hl=pt_BR&sxsrf=AE3TifMjdLwwV2FHke_khSmU5YceWi7Rag%3A1763645504752&ei=QBgfaZjWLbj65OUPmqWz6Qs&oq=rodadas+atua&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHJvZGFkYXMgYXR1YSoCCAAyBhAAGBYYHjIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIFEAAY7wUyBRAAGO8FSKMvULsGWMIbcAV4AJABApgBwQOgAdcVqgEKMC4xMi4xLjEuMbgBA8gBAPgBAZgCEqAClxLCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIEECMYJ8ICChAjGIAEGCcYigXCAgoQLhiABBhDGIoFwgIFEC4YgATCAhEQABiABBixAxiDARiKBRiNBsICDhAAGIAEGLEDGIMBGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICEBAuGIAEGLEDGEMYgwEYigXCAhAQABiABBixAxiDARgUGIcCwgIKEAAYgAQYQxiKBcICCxAAGIAEGLEDGIMBwgIFEAAYgATCAg8QABiABBixAxiDARgKGAvCAgkQABiABBgKGAvCAgcQABiABBgKwgIQEAAYgAQYsQMYgwEYigUYCsICDRAAGIAEGLEDGIMBGA3CAgcQABiABBgNwgIQEAAYgAQYsQMYgwEYigUYDcICEhAAGIAEGLEDGIMBGIoFGAoYDcICChAAGIAEGBQYhwKYAwCIBgGQBhO6BgYIARABGAiSBwg1LjEyLjAuMaAHxq8BsgcIMC4xMi4wLjG4B7YRwgcIMi00LjEyLjLIB8sB&sclient=gws-wiz-serp#sie=lg;/g/11lw0zjj1m;2;/m/0fnk7q;mt;fp;1;;;)')
+
 
 
 
