@@ -91,7 +91,7 @@ ano_atual = datetime.now().year
 # -------------------  Exibição Streamlit------------------------------
 
 # Titulo Pagina
-st.title(f'🥅 Tabela do Campeonato Brasileiro 2025 🥅')
+st.title(f'🥅 Tabela do Campeonato Brasileiro {ano_atual}🥅')
 
 # Tabela Campeonato
 #   Aumentar Tabela tamanho Janela
